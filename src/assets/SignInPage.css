@@ -1,0 +1,26 @@
+.signin-page {
+     padding-top: 80px;
+      /* For fixed navbar */ padding-bottom: 40px; 
+      display: flex; 
+      flex-direction: column;
+       min-height: 100vh; 
+    }
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.85);
+  backdrop-filter: blur(6px);
+}
+
+.signin-form { background-color: rgba(255, 255, 255, 0.9); border-radius: 15px; }
+
+.signin-form .form-label { font-weight: 600; color: #333; }
+
+.signin-form .form-control { border-radius: 10px; }
+
+.footer { background-color: #000; color: white; text-align: center; padding: 1rem; width: 100%; margin-top: auto; }
+
+@media (max-width: 450px) { .signin-form { padding: 1.5rem; } }

@@ -1,0 +1,13 @@
+.gradient-background {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  min-height: 100vh;
+  padding: 20px;
+  color: white;
+}
+.gradient-text {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}

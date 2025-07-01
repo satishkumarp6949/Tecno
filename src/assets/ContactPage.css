@@ -1,0 +1,35 @@
+
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.85);
+  backdrop-filter: blur(6px);
+}
+.contact-form { 
+    background-color: rgba(255, 255, 255, 0.95); 
+    border-radius: 15px;
+ }
+
+.contact-form .form-label {
+     font-weight: 500; color: #333;
+     }
+
+.contact-form .form-control { 
+    border-radius: 10px;
+ }
+
+.footer { background-color: #000; 
+    color: white; 
+    text-align: center; 
+    padding: 1rem; width: 100%;
+     margin-top: auto; 
+    }
+
+@media (max-width: 450px) { 
+    .contact-form {
+         padding: 1.5rem; 
+        } 
+    }

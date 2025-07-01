@@ -1,0 +1,52 @@
+
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.85);
+  backdrop-filter: blur(6px);
+}
+
+
+.aboutpage h2, .aboutpage h3, .aboutpage h4 {
+     font-weight: 700; 
+    }
+
+.aboutpage p.lead { 
+    font-size: 1.2rem; 
+}
+
+.aboutpage .card {
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+      background-color: #1e1e2f; 
+    }
+
+.aboutpage .card:hover { 
+    transform: translateY(-5px); box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+ }
+
+
+.footer-gradient { 
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+     width: 100%;
+     }
+
+.footer-gradient a:hover {
+     text-decoration: underline; color: #00e0ff;
+     }
+
+.animate-glow { animation: footerGlow 5s ease-in-out infinite alternate; }
+
+@keyframes footerGlow { 0% { box-shadow: 0 0 10px rgba(0, 255, 255, 0.2); } 100% { box-shadow: 0 0 25px rgba(0, 255, 255, 0.6); } }
+
+/* Responsive fixes */ @media (max-width: 450px) { .aboutpage .card-body { padding: 1rem 0.5rem; }
+
+.aboutpage .card-title { font-size: 1.1rem; }
+
+.aboutpage .card-text { font-size: 0.9rem; }
+
+.aboutpage h2, .aboutpage h3, .aboutpage h4 { font-size: 1.4rem; }
+
+.footer-gradient .row { flex-direction: column; text-align: center; } }
